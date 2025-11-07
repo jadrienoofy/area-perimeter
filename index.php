@@ -51,12 +51,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Second Activity kay Jear</title>
+    <title>Area Perimeter Calculator</title>
 </head>
 <body class="bg-gray-100">
     <main class="w-full min-h-screen flex justify-center items-center p-4">
         <form method="POST" class="bg-white shadow-lg p-6 sm:p-8 md:p-10 rounded-lg flex flex-col gap-4 w-full max-w-xl">
-            <h1 class="text-2xl sm:text-3xl font-bold text-center mb-4">Area & Perimeter ni Sir JayR Torres</h1>
+            <h1 class="text-2xl sm:text-3xl font-bold text-center mb-4">Area & Perimeter Calculator</h1>
 
             <label for="sidea" class="text-md font-semibold">Side A</label>
             <input class="p-2 border-2 border-black rounded-lg focus:border-blue-600 focus:outline-none w-full" type="number" value="<?= $sidea ?>" name="sidea" placeholder="Enter Side A...">
@@ -87,3 +87,4 @@
 </body>
 <script src="script.js"></script>
 </html>
+
